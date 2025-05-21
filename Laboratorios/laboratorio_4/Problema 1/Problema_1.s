@@ -23,7 +23,8 @@ loop:
 	B sum
 
 mult:
-	MUL r3, r3, r1
+	MOV r5, r3
+	MUL r3, r5, r1
 	B last
 
 sum:
